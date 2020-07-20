@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="site-header inicio">
 
-        <div class="contenedor">
+        <div class="contenedor contenido-header">
 
             <div class="barra">
 
@@ -19,7 +21,7 @@
                     <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
                 </a>
 
-                <nav>
+                <nav class="navegacion">
                     <a href="nosotros.html">Nosotros</a>
                     <a href="anuncios.html">Anuncios</a>
                     <a href="blog.html">Blog</a>
@@ -33,26 +35,30 @@
 
 
 
-    <section>
-        <h2>Más sobre nosotros</h2>
-        
-        <div>
-            <img src="img/icono1.svg" alt="Icono Seguridad">
-            <h2>Seguridad</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
-        </div>
+    <section class="contenedor">
+        <h2 class="fw-300 centrar-texto">Más sobre nosotros</h2>
 
-        <div>
-            <img src="img/icono2.svg" alt="Icono Economía">
-            <h2>El mejor precio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
+        <div class="iconos-nosotros">
+
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono Economía">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
+            </div>
+        
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono Tiempo">
+                <h3>A tiempo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
+            </div> 
+             
         </div>
-    
-        <div>
-            <img src="img/icono3.svg" alt="Icono Tiempo">
-            <h2>A tiempo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum doloribus impedit similique optio, amet aut molestias placeat praesentium maiores ullam totam maxime eaque veritatis nihil rem, nobis unde! Eos.</p>
-        </div>  
 
     </section>
 
@@ -120,7 +126,7 @@
     </section>
 
     <footer>
-        <nav>
+        <nav class="navegacion">
             <a href="nosotros.html">Nosotros</a>
             <a href="anuncios.html">Anuncios</a>
             <a href="blog.html">Blog</a>
