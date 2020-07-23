@@ -100,7 +100,8 @@ h4{
 }
 
 .boton-verde{
-    background-color: seagreen;
+    color: black;
+    background-color: greenyellow;
 }
 
 /* HEADER */
@@ -244,3 +245,98 @@ h4{
 .seccion-inferior .testimonios{
     flex-basis: calc(40% - 2rem);
 }
+
+.entrada-blog{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.entrada-blog a{
+   text-decoration: none;
+   color: black;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.entrada-blog .imagen-entrada{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+    
+}
+
+.texto-entrada h3{
+    margin: 0;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.texto-entrada h3::after{
+   content: '';
+   display: block;
+   width: 15rem;
+   height: 0.5rem;
+   background-color: greenyellow;
+   margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: orange;
+}
+
+/** TESTIMONIOS **/
+
+.testimonio{
+    background-color: greenyellow;
+    font-size: 2.4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.testimonio p{
+    text-align: right;
+}
+
+.testimonio blockquote::before{
+    content:'';
+    background-image: url(../img/comilla.svg);
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+
+}
+.testimonio blockquote{
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
+/** FOOTER **/
+
+.site-footer{
+    background-color: #333333;
+    margin-bottom: 0;
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    margin-bottom: 0;
+    color: white;
+}
+
+
+
+
+
