@@ -56,9 +56,12 @@ h4{
 
 /** UTILIDADES **/
 
+.contenido-centrado{
+    max-width: 800px;
+}
 .seccion{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; 
 }
 
 .fw-300{
@@ -198,6 +201,8 @@ h4{
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+    flex:1;
+    max-width: 500px;
     
 }
 
@@ -346,6 +351,9 @@ h4{
 
 /** INTERNAS **/
 
+
+/** NOSOTROS**/
+
 .contenido-nosotros{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -368,5 +376,13 @@ h4{
 }
 
 
+/** ANUNCIO **/
+
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
