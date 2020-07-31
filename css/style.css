@@ -83,6 +83,8 @@ h4{
 .display-block{
     display: block!important;
 }
+
+
 /* BOTONES*/
 
 .boton{
@@ -383,6 +385,13 @@ h4{
     justify-content: space-between;
     align-items: center;
 
+}
+
+
+/** CONTACTO **/
+
+label{
+    display: block;
 }
 
 
