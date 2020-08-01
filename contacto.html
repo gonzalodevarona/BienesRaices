@@ -37,9 +37,9 @@
     <img src="img/destacada3.jpg" alt="imagen de contacto">
 
     <main class="contenedor seccion contenido-centrado">
-        <h2 class="fw-300 centrar-texto">Llena el formulario decontacto </h2>
+        <h2 class="fw-300 centrar-texto">Llena el formulario de Contacto </h2>
 
-        <form action="">
+        <form action="" class="contacto">
 
             <fieldset>
                 <legend>Información Personal</legend>
@@ -68,7 +68,27 @@
 
             </fieldset>
 
-            <input type="submit">
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>¿Cómo desea ser Contactado?</p>
+                <div class="radio-contacto">
+                    <label for="phone">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono" id="phone">
+
+                    <label for="mail">E-mail</label>
+                    <input type="radio" name="contacto" value="email" id="mail">
+                </div>
+
+                <p>Sí eligió Teléfono, elija la fecha y la hora:</p>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora</label>
+                <input type="time" id="hora">
+
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton boton-verde">
         </form>
 
     </main>
