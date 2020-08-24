@@ -194,6 +194,42 @@ h4{
     color: red;
 }
 
+/** MOBILE MENU **/
+
+.mobile-menu img{
+    width: 5rem;
+
+}
+
+@media(min-width: 768px) {
+    .mobile-menu{
+       display: none;
+    
+    }
+}
+
+
+.navegacion:target {
+    display: block;
+}
+
+.navegacion {
+    display: none;
+}
+
+
+
+
+@media(min-width: 768px) {
+    .navegacion{
+        display: block;
+    }
+    
+}
+
+
+
+
 
 /* NOSOTROS */
 
@@ -241,7 +277,9 @@ h4{
 }
 
 @media(min-width: 768px) {
-    flex: 0 0 calc(33.3% - 1rem);
+    .anuncio{
+        flex: 0 0 calc(33.3% - 1rem);
+    }
 }
 
 .contenido-anuncio{
