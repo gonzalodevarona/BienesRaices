@@ -61,6 +61,34 @@ h4{
     }
 }
 
+.fixed-icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 12%;
+    right: 5%; 
+    
+    
+  }
+  
+  .fixed-icons a{
+    
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: 6rem;
+    
+     
+  }
+  
+  @media (min-width: 768px) {
+    .fixed-icons a{
+    
+      width: 7rem;
+      height: 7rem;
+      padding-bottom: 8rem
+       
+    }
+  }
 
 /** UTILIDADES **/
 
